@@ -7,7 +7,7 @@ title: Susana Nunes
 
 <img class="profile-picture" src="me.jpg">
 
-PhD student in Computer Science at the <a target="_blank" href="https://ciencias.ulisboa.pt/">Faculty of Sciences of the University of Lisbon</a> (FCUL), conducting research at <a target="_blank" href="https://www.lasige.pt/">LASIGE</a>. I am supervised by <a target="_blank" href="http://www.di.fc.ul.pt/~catiapesquita/"> Dr. Catia Pesquita</a> from FCUL.
+I am a PhD candidate in Computer Science at the <a target="_blank" href="https://ciencias.ulisboa.pt/">Faculty of Sciences of the University of Lisbon</a> (FCUL), conducting research at <a target="_blank" href="https://www.lasige.pt/">LASIGE</a>. I am supervised by <a target="_blank" href="http://www.di.fc.ul.pt/~catiapesquita/"> Dr. Catia Pesquita</a> from FCUL.
 
 Interested in Biomedical Artificial Intelligence. I am currently focusing on Explainable AI, researching the application of AI algorithms to explain their decisions and the implementation of AI-driven technologies in the healthcare sector. My goal is to contribute to developing ethical and transparent AI technologies. More specifically, I am working on making deep learning-based drug recommendations for cancer patients more easily understood by clinicians. 
 
