@@ -7,7 +7,7 @@ title: Ruben Branco
 
 <img class="profile-picture" src="me.jpg">
 
-Hi👋! I am a PhD student at the <a target="_blank" href="https://ciencias.ulisboa.pt/">Faculty of Sciences of the University of Lisbon</a> (FCUL), conducting research at <a target="_blank" href="https://www.lasige.pt/">LASIGE</a>. I am supervised by <a target="_blank" href="https://saracmadeira.wordpress.com/">Professor Sara Madeira</a> from FCUL and <a target="_blank" href="http://www.biocomp.unibo.it/piero/">Professor Piero Fariselli</a> from the <a target="_blank" href="https://dms.campusnet.unito.it/do/home.pl">Department of Medical Sciences of the University of Turin</a>.
+Hi👋! I am a PhD student at the <a target="_blank" href="https://ciencias.ulisboa.pt/">Faculty of Sciences of the University of Lisbon</a> (FCUL), conducting research at <a target="_blank" href="https://www.lasige.pt/">LASIGE</a>. I am supervised by <a target="_blank" href="https://saracmadeira.wordpress.com/">Professor Catia Pesquita</a> from FCUL.
 
 I am interested in Deep Learning as a field overall and its applicability to many problems. My current research focuses on improving neurodegenerative disease prognosis, with particular attention to ALS and MS, using Deep Learning. More specifically, I am developing Generative Modeling methods for longitudinal medical datasets to enhance the available resources for low-resource chronic diseases.
 
