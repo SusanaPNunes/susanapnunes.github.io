@@ -13,7 +13,7 @@ Interested in Biomedical Artificial Intelligence. I am currently focusing on Exp
 
 I have previously conducted research in Multi-domain knowledge graph embeddings and Machine Learning algorithms for <a target="_blank" href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-023-00291-x">gene-disease association prediction</a>.
 
-For a more thorough and structured description of my work, you may check <a target="_blank" href="https://www.cienciavitae.pt/portal/C61F-13D3-4346>my CiênciaVitae</a>.
+For a more thorough and structured description of my work, you may check <a target="_blank" href="https://www.cienciavitae.pt/portal/C61F-13D3-4346">my CiênciaVitae</a>.
 
 <p align="center">
 Links:
