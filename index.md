@@ -18,7 +18,7 @@ For a more thorough and structured description of my work, you may check <a targ
 <p align="center">
 Links:
   <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=-lwlWq4AAAAJ"><i class="fas fa-graduation-cap"></i></a> ⚭
-  <a target="_blank" href="https://orcid.org/0000-0002-0160-5875"><i class="fab fa-orcid"></i></a> ⚭
+  <a target="_blank" href="https://www.lasige.pt/member/susana-nunes/"><i class="fab fa-orcid"></i></a> ⚭
   <a target="_blank" href="https://github.com/SusanaPNunes"><i class="fab fa-github"></i></a> ⚭
   <a target="_blank" href="https://www.linkedin.com/in/susana-cpnunes/"><i class="fab fa-linkedin"></i></a>
 </p>
