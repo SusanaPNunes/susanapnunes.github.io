@@ -1,5 +1,5 @@
-title: "Ruben Branco"
-url: "https://rubenbranco.github.io"
+title: "Susana Nunes"
+url: "https://susanapnunes.github.io/"
 baseurl: "./"
 
 markdown: kramdown
@@ -11,7 +11,7 @@ favicon: true
 favicon_location: favicon.ico
 
 footer: true
-footer_url: "https://github.com/RubenBranco"
+footer_url: "https://github.com/SusanaPNunes"
 footer_text: ""
 
 sass:
@@ -22,4 +22,4 @@ nav:
  - name: "About"
    link: "./"
  - name: "CV"
-   link: "https://drive.google.com/file/d/1IkYwV90qBOrX6z_5EVxYhzMBOBnBBZLO/view"
+   link: "https://www.cienciavitae.pt/portal/C61F-13D3-4346"
