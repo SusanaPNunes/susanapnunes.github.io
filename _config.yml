@@ -1,0 +1,25 @@
+title: "Ruben Branco"
+url: "https://rubenbranco.github.io"
+baseurl: "./"
+
+markdown: kramdown
+#ins_logo: "./bits-logo.png"
+
+tracking_id: UA-104489558-5
+
+favicon: true
+favicon_location: favicon.ico
+
+footer: true
+footer_url: "https://github.com/RubenBranco"
+footer_text: ""
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "./"
+ - name: "CV"
+   link: "https://drive.google.com/file/d/1IkYwV90qBOrX6z_5EVxYhzMBOBnBBZLO/view"
