@@ -5,7 +5,7 @@ title: Susana Nunes
 
 ## About Me
 
-<img class="profile-picture" src="me.jpg">
+<img class="profile-picture" src="me.png">
 
 PhD student in Computer Science at the <a target="_blank" href="https://ciencias.ulisboa.pt/">Faculty of Sciences of the University of Lisbon</a> (FCUL), conducting research at <a target="_blank" href="https://www.lasige.pt/">LASIGE</a>. I am supervised by <a target="_blank" href="http://www.di.fc.ul.pt/~catiapesquita/"> Dr. Catia Pesquita</a> from FCUL.
 
