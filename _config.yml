@@ -18,8 +18,4 @@ sass:
     style: compressed
     sass_dir: _sass
 
-nav:
- - name: "About"
-   link: "./"
- - name: "CV"
-   url: "https://drive.google.com/file/d/1u8sT0PNZUK8J_YWaCNopY5uMAnTu7gBT/view?usp=sharing"
+
