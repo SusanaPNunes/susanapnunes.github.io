@@ -33,6 +33,7 @@ I am interested in many topics beyond these and always look forward to collabora
 * Deep Learning
 * Semantic Similarity
 * Knowledge Graphs and Ontologies
+* Knowledge Graph Embeddings
 
 ## Teaching
 
