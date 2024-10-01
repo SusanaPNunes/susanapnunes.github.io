@@ -37,6 +37,12 @@ I am interested in many topics beyond these and always look forward to collabora
 * Knowledge Graphs and Ontologies
 * Knowledge Graph Embeddings
 
+## Experience 
+
+### Sony AI 
+
+Internship as Assistant AI Researcher at Sony AI, Barcelona, Spain.Joined a team aimed at various breakthroughs in AI research, including the application of AI in the scientific domain. 
+
 ## Teaching
 
 ### Programming I, Faculty of Sciences of the University of Lisbon
@@ -47,11 +53,6 @@ Course focuses on programming fundamentals
 
 Teaching Theoretical-Practical classes to students without a technological background. Teaching them coding skills that will enable them to work on application software on low-code development platforms.
 
-## Experience 
-
-### Sony AI 
-
-Internship as Assistant AI Researcher at Sony AI, Barcelona, Spain.Joined a team aimed at various breakthroughs in AI research, including the application of AI in the scientific domain. 
 
 ## Contact
 
