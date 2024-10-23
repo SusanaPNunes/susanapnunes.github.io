@@ -13,7 +13,7 @@ Interested in Biomedical Artificial Intelligence. I am currently focusing on Exp
 
 I have previously conducted research in Multi-domain knowledge graph embeddings and Machine Learning algorithms for <a target="_blank" href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-023-00291-x">gene-disease association prediction</a>.
 
-Currenty conducting research on <a target="_blank" href="https://liseda-lab.github.io/assets/pdf/2024ECAI_XAI.pdf"> Drug Repurposing Hypothesis Validation with Knowledge-infused Explanationsg </a>.
+Currenty conducting research on <a target="_blank" href="https://liseda-lab.github.io/assets/pdf/2024ECAI_XAI.pdf"> Drug Repurposing Hypothesis Validation with Knowledge-infused Explanations </a>.
 
 For a more thorough and structured description of my work, you may check <a target="_blank" href="https://drive.google.com/file/d/1gxvwFJEP1x54R4iOd4e7uuYx3C_qC6X5/view?usp=sharing">my CV</a>.
 
