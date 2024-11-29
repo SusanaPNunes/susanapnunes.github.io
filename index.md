@@ -38,12 +38,13 @@ I am interested in many topics beyond these and always look forward to collabora
 * Semantic Similarity
 * Knowledge Graphs and Ontologies
 * Knowledge Graph Embeddings
+* Large Language Models
 
 ## Experience 
 
-### Sony AI 
+### Sony AI - Internship
 
-Internship as Assistant AI Researcher at Sony AI, Barcelona, Spain.Joined a team aimed at various breakthroughs in AI research, including the application of AI in the scientific domain. 
+Assistant AI Researcher at Sony AI, Barcelona, Spain. Joined a team aimed at various breakthroughs in AI research, including the application of AI in the scientific domain. 
 
 ## Teaching
 
