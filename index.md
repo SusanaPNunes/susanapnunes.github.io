@@ -15,7 +15,7 @@ I have previously conducted research in Multi-domain knowledge graph embeddings 
 
 Currenty conducting research on <a target="_blank" href="https://liseda-lab.github.io/assets/pdf/2024ECAI_XAI.pdf"> Drug Repurposing Hypothesis Validation with Knowledge-infused Explanations </a>.
 
-For a more thorough and structured description of my work, you may check <a target="_blank" href="https://drive.google.com/file/d/1gxvwFJEP1x54R4iOd4e7uuYx3C_qC6X5/view?usp=sharing">my CV</a>.
+For a more thorough and structured description of my work, you may check <a target="_blank" href="https://drive.google.com/drive/folders/1DWkvD6oqcchaHkJS0OUlh5ECjM4u1_ER?usp=sharing">my CV</a>.
 
 
 
