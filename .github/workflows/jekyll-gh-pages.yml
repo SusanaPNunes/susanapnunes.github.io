@@ -1,8 +1,8 @@
-name: Deploy Jekyll site to GitHub Pages
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   push:
-    branches: [ main ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -19,27 +19,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Build with Jekyll
+        # NEW: use the official pages build action, v2
+        uses: actions/build-pages@v2
         with:
-          ruby-version: '3.4.4'
+          # where your Jekyll source lives
+          app_location: ./
+          # where Jekyll should output the static site
+          output_location: _site
 
-      - name: Install Jekyll + SASS support
-        run: |
-          gem install jekyll
-          gem install jekyll-sass-converter
-
-      - name: Build site
-        run: jekyll build --source . --destination _site
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # we only need to point at our build output;
-          # default artifact name is "pages", which deploy-pages will consume
-          path: _site
+      - name: Upload artifact
+        # NEW: this is the POST-build upload built into build-pages@v2, so you don’t need upload-pages-artifact!
+        # (we can omit this step entirely, since deploy-pages will pick up the build output automatically)
 
   deploy:
     needs: build
@@ -51,4 +47,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        # no "with:" needed—by default it grabs the "pages" artifact we just uploaded
