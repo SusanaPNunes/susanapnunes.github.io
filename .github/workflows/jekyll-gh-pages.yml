@@ -29,6 +29,8 @@ jobs:
       - name: Install Jekyll and GitHub Pages
         run: |
           gem install jekyll
+          # remove sass-embedded so we can install the sass gem below
+          gem uninstall sass-embedded -aIx || true
           gem install github-pages
 
       - name: Build site with Jekyll
