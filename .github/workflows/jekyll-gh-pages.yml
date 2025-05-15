@@ -18,21 +18,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4.4'
-      - name: Install Jekyll and SASS support
+
+      - name: Install Jekyll + SASS support
         run: |
           gem install jekyll
           gem install jekyll-sass-converter
-      - name: Build site with Jekyll
+
+      - name: Build site
         run: jekyll build --source . --destination _site
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # we only need to point at our build output;
+          # default artifact name is "pages", which deploy-pages will consume
           path: _site
-          name: artifact
 
   deploy:
     needs: build
@@ -44,5 +51,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with:
-          artifact_name: artifact
+        # no "with:" needed—by default it grabs the "pages" artifact we just uploaded
