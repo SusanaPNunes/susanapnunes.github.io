@@ -1,43 +1,42 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Build & Deploy Jekyll to GitHub Pages
 
 on:
-  # Runs on pushes to the default branch
   push:
     branches: ["main"]
-  # Allows manual runs
   workflow_dispatch:
 
-# Grant minimal permissions required
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Only one deployment at a time
-concurrency:
-  group: pages
-  cancel-in-progress: false
+  contents: read       # read your code
+  pages: write         # deploy to GitHub Pages
+  id-token: write      # required by deploy-pages action
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Check out repo
+        uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Build with Jekyll
-        uses: actions/build-pages@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          # Your Jekyll source directory
-          app_location: ./
-          # Where to output the generated static site
-          output_location: _site
+          ruby-version: "3.4.4"
 
-      # No separate upload step needed—build-pages@v2 takes care of it
+      - name: Install Jekyll & SASS support
+        run: |
+          gem install jekyll jekyll-sass-converter
+
+      - name: Build site
+        run: |
+          jekyll build --source . --destination _site
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
 
   deploy:
     needs: build
@@ -48,4 +47,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
