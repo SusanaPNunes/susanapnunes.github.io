@@ -26,20 +26,18 @@ jobs:
         with:
           ruby-version: '3.4.4'
 
-      - name: Install Jekyll and GitHub Pages
+      - name: Install Jekyll and SASS support
         run: |
           gem install jekyll
-          # remove sass-embedded so we can install the sass gem below
-          gem uninstall sass-embedded -aIx || true
-          gem install github-pages
+          gem install jekyll-sass-converter
 
       - name: Build site with Jekyll
-        run: jekyll build --source . --destination ./_site
+        run: jekyll build --source . --destination _site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
 
   deploy:
     needs: build
