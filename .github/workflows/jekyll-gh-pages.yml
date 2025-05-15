@@ -1,15 +1,20 @@
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
+  # Runs on pushes to the default branch
   push:
     branches: ["main"]
+  # Allows manual runs
   workflow_dispatch:
 
+# Grant minimal permissions required
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Only one deployment at a time
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -25,17 +30,14 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Build with Jekyll
-        # NEW: use the official pages build action, v2
         uses: actions/build-pages@v2
         with:
-          # where your Jekyll source lives
+          # Your Jekyll source directory
           app_location: ./
-          # where Jekyll should output the static site
+          # Where to output the generated static site
           output_location: _site
 
-      - name: Upload artifact
-        # NEW: this is the POST-build upload built into build-pages@v2, so you don’t need upload-pages-artifact!
-        # (we can omit this step entirely, since deploy-pages will pick up the build output automatically)
+      # No separate upload step needed—build-pages@v2 takes care of it
 
   deploy:
     needs: build
