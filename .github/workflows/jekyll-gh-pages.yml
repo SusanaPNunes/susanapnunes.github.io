@@ -24,7 +24,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x'
+          # Pin to a supported 3.x release—e.g. 3.4.x
+          ruby-version: '3.4.x'
 
       - name: Install dependencies
         run: bundle install
