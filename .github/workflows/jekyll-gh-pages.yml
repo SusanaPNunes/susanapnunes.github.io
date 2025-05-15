@@ -32,13 +32,13 @@ jobs:
           gem install jekyll-sass-converter
 
       - name: Build site with Jekyll
-        run: jekyll build --source . --destination ./_site
+        run: jekyll build --source . --destination _site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
-          name: pages
+          path: _site
+          name: artifact
 
   deploy:
     needs: build
