@@ -37,10 +37,8 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # point at the directory you just built
           path: ./_site
-          # make sure the artifact is called "pages" so deploy-pages can pick it up
-          artifact_name: pages
+          name: pages
 
   deploy:
     needs: build
