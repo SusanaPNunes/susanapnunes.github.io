@@ -11,7 +11,7 @@ I am a PhD researcher in Computer Science at the <a target="_blank" href="https:
 
 My research sits at the intersection of **graph machine learning, neuro-symbolic and explainable AI, and large language models**, applied to **drug discovery and biomedical decision-making**. I build methods that don't just *predict* biomedical links — drug–disease, drug–target, gene–disease — over large knowledge graphs, but also *explain why* a prediction holds, in terms a domain expert can understand and act on. My goal is to develop trustworthy, transparent AI that helps clinicians and researchers turn model outputs into testable scientific hypotheses.
 
-Previously, I was an Assistant AI Researcher (intern) at **Sony AI** in Barcelona, and I am a research fellow on the EU Horizon projects **KATY** and **CancerScan**. Earlier, I worked on multi-domain knowledge graph embeddings and machine learning for <a target="_blank" href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-023-00291-x">gene–disease association prediction</a>.
+Previously, I was an Assistant AI Researcher at **Sony AI** in Barcelona, and I am a research fellow on the EU Horizon projects **KATY** and **CancerScan**. Earlier, I worked on multi-domain knowledge graph embeddings and machine learning for <a target="_blank" href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-023-00291-x">gene–disease association prediction</a>.
 
 For a structured overview of my work, you can check <a target="_blank" href="https://drive.google.com/drive/folders/1DWkvD6oqcchaHkJS0OUlh5ECjM4u1_ER?usp=sharing">my CV</a>.
 
