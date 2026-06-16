@@ -38,7 +38,6 @@ I am interested in many topics beyond these and always look forward to collabora
 ## Selected Publications
 
 * **Rewarding Explainability in Drug Repurposing with Knowledge Graphs.** S. Nunes, S. Badreddine, C. Pesquita. *IJCAI 2025.* <a target="_blank" href="https://liseda-lab.github.io/assets/pdf/2025IJCAI_RewardingExplainability">[paper]</a>
-* **Adaptive Scientific Explanations through Agentic Personas.** S. Nunes, et al. *Under review, Nature Machine Intelligence, 2025.*
 * **Multi-domain Knowledge Graph Embeddings for Gene–Disease Association.** S. Nunes, R. T. Sousa, C. Pesquita. *Journal of Biomedical Semantics, 2023.* <a target="_blank" href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-023-00291-x">[paper]</a>
 
 A full list is available on <a target="_blank" href="https://scholar.google.com/citations?user=_vBEObEAAAAJ&hl=en">Google Scholar</a>.
